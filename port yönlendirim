@@ -1,1 +1,20 @@
+Port Nedir?
+giriş, soket ve bağlantı noktası anlamında kullanılan terimdir.portlar fiziksel port ve sanal port olarak ikiye ayrılır.Sanal port bilgisayar kullanırken 
+ağ ve internet üzerinde veya bir yazılım bağlantısı ile yönlendirilen mantıksal bağlantı noktalarıdır.
+Ağ ortamındaki iletişimin ve veri alışverişinin sağlanabilmesi için ıp adresleri verilir.Bu adresler kullanılarak ulaşılan bilgisayarda hizmet alınmak için
+port numaraları kullanılır.
+Bilgisayarımızdaki herhangi bir ip adresinin hangi portu kullanarak bağlantı sağladığını görmek için komut sistemine netstat- an yazarız ve 
+bağlantıları gözlemleriz.
+
+Bunu terminale yazdıktan sonra bize gelecek olan protokol, local adress, foregin adress ve state dir.
+protokol:hangi prokolü kullandığını gösterir.
+local adres:bize ait ip adresi ve port adresi.
+foregin adres:bağlanılan ip adres ve port numarasını gösterir.
+state: durum bilgisini gösterir.Listening:dinleme, established:aktif.
+
+özellikle oyun dünyasında port yönlendirme terimlerini sıkça duyuyoruz.Örneğin bir oyunun sunucusuna bağlaılanmıyorsa veya evinizdeki web sunucusuna
+dışarıdan ulaşamıyorsanız, port yönlendirmeyi yapmamız gerekiyor.
+Burada portun ne demek olduğunu ve neden yönledirilmesi gerektiğini analatcağız.
+Telefondan pc'ye ağımızdaki her cihaza router ımız tarafından bir ip adresi atanır.Yerel ağımızda atanılan ip ler özel iplerdir.
+Port sayesinde bilgisayarlar veri alır ve gönderir.İp adresleri arasında köprü görevi görür.
 
