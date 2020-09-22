@@ -18,3 +18,8 @@ Burada portun ne demek olduğunu ve neden yönledirilmesi gerektiğini analatca�
 Telefondan pc'ye ağımızdaki her cihaza router ımız tarafından bir ip adresi atanır.Yerel ağımızda atanılan ip ler özel iplerdir.
 Port sayesinde bilgisayarlar veri alır ve gönderir.İp adresleri arasında köprü görevi görür.
 
+In computer networking, a port is a communication endpoint.
+At the software level, within an operating system, a port is a logical construct that identifies a specific process or a type of network service.
+A port is identified for each transport protocol.
+
+
